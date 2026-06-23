@@ -56,6 +56,15 @@ const Home = () => {
           <button className="background-img-button">Read More</button>
         </div>
       </div>
+      <div
+        className="background-img-section"
+        style={{ backgroundImage: `url(${backgroundImg})` }}
+      >
+        <div className="background-img-overlay" />
+        <div className="background-img-content">
+          <h2>Our Global Footprint</h2>
+        </div>
+      </div>
 
       <style>{`
         .fullscreen-video-container {
